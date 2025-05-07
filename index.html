@@ -6,11 +6,10 @@
    <title>Aldana Pilla | Portfolio !</title>
    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/Elements/kitty_5236081.png" type="image/x-icon">
+    <script src="script.js"></script>
 
 
 </head>
-
-
 
 
 <body>
@@ -22,10 +21,24 @@
 
 
    <header class="header">
-        <div class="search-bar">
+        <a href="#" id="search-bar" class="search-bar">
             <img class="search-icon" src="/Elements/search_15126455.png" alt="about me">
             <p class="about-me">About me</p>
+        </a>
+
+        <div id="search-bar-about" class="modal">
+            <div class="search-bar-content">
+              <span class="close">&times;</span>
+              <img class="face" src="/Elements/face_11041751.png" alt="smile face">
+              <p>Hey! I’m <strong>Aldana Pilla </strong> — I come from a background in management and team coordination, working for several years in both the public and private sectors.<br> Over time, I realized I wanted to create things, not just manage them. That’s when I decided to transition into the world of <strong>Web Development</strong>. <br><br>
+
+                Along the way, I also studied <strong>visual arts and photography</strong>, which helped me develop a creative eye and a strong appreciation for aesthetics. That’s exactly what drew me to <strong>Front-End Development </strong> — it allows me to combine my organizational mindset with creativity and design.<br><br>
+                
+                I trained in technologies like, <strong>CSS, PHP, JavaScript, and MySQL,</strong> and I’m currently working on expanding my skills even further in back-end field. 
+                I love working with multidisciplinary teams and contributing to projects where creativity and functionality meet!</p>
+            </div>
         </div>
+
    </header>
   
    <div class="grid">
@@ -37,18 +50,20 @@
             <H1>Hello! <br> I'm Aldana.</H1>
             <p class="presentation">I'm a Web Developer based in Barcelona.</p>
             <div class="links">
-               <a target="_blank" href="www.linkedin.com/in/aldana-pilla-b58783183">LinkedIn</a>
+               <a target="_blank" href="https://www.linkedin.com/in/aldana-pilla-b58783183/">LinkedIn</a>
                <a target="_blank" href="https://github.com/aldanadp">GitHub</a>
             </div> 
        </nav>
 
 
-        <div class="myprojects">
-            <p class="myprojects-text"> Projects</p>
-        </div>
 
 
        <main class="main__content">
+
+            <div class="myprojects">
+                <p class="myprojects-text"> Projects</p>
+            </div>
+
            <div class="bar-2">
             <img class="setting" src="/Elements/settings_7073783.png" alt="">
            </div>
@@ -82,12 +97,14 @@
            </div>
        </main>
 
-       <div class="contact-me">
-            <p class="contact-text"> CONTACT ME</p>
-       </div>
+    
 
        <form action="" method="post">
           
+            <div class="contact-me">
+                <p class="contact-text"> CONTACT ME</p>
+            </div>
+            
            <div class="form_group">
                <label class="label" for="name"> Name</label>
                <input type="text" id="name" name="name" placeholder=" * Name">
@@ -116,9 +133,8 @@
         </div>
 
         <div class="icons-footer">
-            <img class="mailicon" src="" alt="">
-            <img class="githubicon" src="" alt="">
-            <img class="linkedinicon" src="" alt="">
+            <img class="mailicon" src="/Elements/email_864442.png" alt="">
+            <img class="githubicon" src="/Elements/github_2111432.png" alt="">
         </div>
 
        
